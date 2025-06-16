@@ -62,6 +62,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom Chasseurs Courrier inspired colors
+        courier: {
+          dark: "rgb(4, 43, 43)",
+          light: "rgb(255, 246, 221)",
+          accent: "rgb(102, 153, 153)",
+          lime: "rgb(204, 255, 0)",
+        },
+      },
+      fontFamily: {
+        asap: ["Asap", "sans-serif"],
+      },
+      fontSize: {
+        hero: "100px",
+        section: "36px",
+        nav: "23px",
       },
       borderRadius: {
         lg: "var(--radius)",
