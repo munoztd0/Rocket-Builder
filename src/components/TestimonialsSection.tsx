@@ -4,24 +4,24 @@ import { cn } from "@/lib/utils";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      text: "Excellent service. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilite de placer des commandes et service rapide et courtois.",
-      author: "AG",
-      company: "Local Business",
+      text: "Service excellent. Rapidité et fiabilité des livraisons, personnel professionnel et courtois. Je recommande vivement !",
+      author: "Anne G.",
+      company: "Boutique Locale",
     },
     {
-      text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Professional and reliable team.",
-      author: "MJ",
-      company: "Restaurant Chain",
+      text: "Une solution de livraison vraiment écologique et efficace. L'équipe est très réactive et le suivi en temps réel est un vrai plus.",
+      author: "Michel J.",
+      company: "Restaurant",
     },
     {
-      text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Outstanding customer service and very fast delivery times.",
-      author: "RK",
-      company: "E-commerce Store",
+      text: "Parfait pour nos besoins de livraison quotidiens. Service client exceptionnel et délais toujours respectés.",
+      author: "Rachel K.",
+      company: "E-commerce",
     },
     {
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. The most sustainable courier option in the city.",
-      author: "LM",
-      company: "Sustainable Co.",
+      text: "La meilleure option de livraison durable en ville. Fier de travailler avec une entreprise qui partage nos valeurs écologiques.",
+      author: "Luc M.",
+      company: "Entreprise Durable",
     },
   ];
 
@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
     <section className="bg-courier-accent py-20">
       <div className="container mx-auto px-4">
         <h2 className="font-asap font-extrabold text-section text-courier-dark text-center mb-12">
-          What Our Clients Say
+          Ce que disent nos clients
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">

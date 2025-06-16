@@ -6,44 +6,44 @@ import { Button } from "@/components/ui/button";
 const Services = () => {
   const services = [
     {
-      title: "E-commerce & Wholesale",
-      subtitle: "Complete Stock Management",
+      title: "Livraison Express",
+      subtitle: "Rapide & Fiable",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "Service de livraison urgent pour vos colis et documents importants. Nos coursiers expérimentés garantissent une livraison rapide et sécurisée dans toute la ville.",
       features: [
-        "Real-time inventory tracking",
-        "Automated order processing",
-        "Same-day pickup and delivery",
-        "Custom integration solutions",
-      ],
-      image: "e-commerce-service",
-    },
-    {
-      title: "Same-day Express Courier",
-      subtitle: "Fast & Reliable Delivery",
-      description:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
-      features: [
-        "1-3 hour delivery windows",
-        "Real-time tracking",
-        "Proof of delivery",
-        "Emergency rush service",
+        "Livraison en 1-3 heures",
+        "Suivi en temps réel",
+        "Confirmation de livraison",
+        "Service d'urgence",
       ],
       image: "express-courier",
     },
     {
-      title: "Food & Catering Delivery",
-      subtitle: "Fresh & On-time",
+      title: "Livraison Alimentaire",
+      subtitle: "Frais & Ponctuel",
       description:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
+        "Transport spécialisé pour restaurants, traiteurs et commerces alimentaires. Équipement adapté pour maintenir la qualité et la température de vos produits.",
       features: [
-        "Temperature-controlled transport",
-        "Specialized food handling",
-        "Event catering support",
-        "Bulk order management",
+        "Transport réfrigéré",
+        "Manipulation spécialisée",
+        "Support événementiel",
+        "Gestion des commandes groupées",
       ],
       image: "food-delivery",
     },
+    {
+      title: "Services aux Entreprises",
+      subtitle: "Solutions sur Mesure",
+      description:
+        "Solutions logistiques personnalisées pour les entreprises. De la livraison régulière de documents aux transports spéciaux, nous nous adaptons à vos besoins.",
+      features: [
+        "Contrats personnalisés",
+        "Facturation mensuelle",
+        "Service dédié",
+        "Reporting détaillé",
+      ],
+      image: "business-service",
+    }
   ];
 
   return (
@@ -54,30 +54,28 @@ const Services = () => {
       <section className="bg-courier-accent pt-24 pb-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-asap font-extrabold text-courier-dark mb-6">
-            <span className="block text-4xl md:text-6xl">Our Services</span>
+            <span className="block text-4xl md:text-6xl">Nos Services</span>
           </h1>
           <p className="font-asap text-courier-dark text-xl max-w-3xl mx-auto">
-            Professional courier and delivery solutions tailored to your
-            business needs. From express deliveries to comprehensive logistics
-            management.
+            Des solutions de livraison écologiques et efficaces, adaptées à vos besoins
           </p>
         </div>
       </section>
 
-      {/* Services Grid */}
+      {/* Services Grid Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="space-y-16 max-w-6xl mx-auto">
+          <div className="space-y-20">
             {services.map((service, index) => (
               <div
                 key={index}
-                className={`flex flex-col lg:flex-row items-center gap-12 ${
+                className={`flex flex-col lg:flex-row gap-12 items-center ${
                   index % 2 === 1 ? "lg:flex-row-reverse" : ""
                 }`}
               >
                 {/* Service Image */}
                 <div className="lg:w-1/2">
-                  <div className="w-full h-80 bg-gray-300 rounded-lg flex items-center justify-center">
+                  <div className="w-full h-96 bg-gray-300 rounded-lg flex items-center justify-center">
                     <span className="text-gray-600 font-asap text-xl">
                       {service.image}
                     </span>
@@ -113,7 +111,7 @@ const Services = () => {
                     size="lg"
                     className="bg-courier-dark hover:bg-courier-dark/90 text-courier-light font-asap"
                   >
-                    Learn More
+                    En savoir plus
                   </Button>
                 </div>
               </div>
@@ -126,25 +124,24 @@ const Services = () => {
       <section className="bg-courier-dark py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-asap font-extrabold text-section text-courier-light mb-6">
-            Ready to get started?
+            Prêt à commencer ?
           </h2>
           <p className="font-asap text-courier-light text-xl mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss your delivery needs and get a custom
-            quote for your business.
+            Contactez-nous aujourd'hui pour discuter de vos besoins et obtenir un devis personnalisé.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
               className="bg-courier-light hover:bg-courier-light/90 text-courier-dark font-asap px-8"
             >
-              Request Quote
+              Demander un devis
             </Button>
             <Button
-              size="lg"
               variant="outline"
+              size="lg"
               className="border-courier-light text-courier-light hover:bg-courier-light hover:text-courier-dark font-asap px-8"
             >
-              Contact Us
+              Nous contacter
             </Button>
           </div>
         </div>

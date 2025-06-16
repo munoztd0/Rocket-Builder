@@ -62,11 +62,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Custom Chasseurs Courrier inspired colors
+        // Custom Rocket Courrier inspired colors
         courier: {
-          dark: "rgb(4, 43, 43)",
-          light: "rgb(255, 246, 221)",
-          accent: "rgb(102, 153, 153)",
+          dark: "rgb(146, 0, 199)",
+          light: "rgb(255, 255, 255)",
+          accent: "rgb(6, 69, 33)",
           lime: "rgb(204, 255, 0)",
         },
       },

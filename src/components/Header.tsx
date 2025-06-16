@@ -12,7 +12,7 @@ const Header = () => {
             to="/"
             className="text-courier-light font-bold text-xl font-asap"
           >
-            CourierCo
+            Rocket Courrier
           </Link>
         </div>
 
@@ -28,7 +28,7 @@ const Header = () => {
             to="/about"
             className="text-courier-light hover:text-courier-lime transition-colors font-asap text-nav"
           >
-            About
+            À propos
           </Link>
           <Link
             to="/contact"
@@ -37,7 +37,7 @@ const Header = () => {
             Contact
           </Link>
           <span className="text-courier-light font-asap text-nav cursor-pointer hover:text-courier-lime transition-colors">
-            EN
+            FR
           </span>
         </nav>
 
@@ -46,7 +46,7 @@ const Header = () => {
           variant="outline"
           className="bg-transparent border-courier-light text-courier-light hover:bg-courier-light hover:text-courier-dark font-asap"
         >
-          Client Login
+          Espace Client
         </Button>
 
         {/* Mobile menu button */}

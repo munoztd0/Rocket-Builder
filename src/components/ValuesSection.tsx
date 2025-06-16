@@ -17,27 +17,39 @@ const ValuesSection = () => {
           {/* Text Content */}
           <div className="lg:w-1/2">
             <h2 className="font-asap font-extrabold text-section text-courier-light mb-6 leading-tight">
-              EQUITABLE, SUSTAINABLE AND ACCOUNTABLE
+              ÉQUITABLE, DURABLE ET RESPONSABLE
             </h2>
 
             <div className="space-y-6 text-courier-light font-asap">
               <p className="text-lg leading-relaxed">
-                Doing all of our deliveries on bike means zero emissions,
-                reduced traffic congestion, and a positive impact on our urban
-                environment.
+                Réaliser toutes nos livraisons à vélo signifie zéro émission,
+                contribuant à un meilleur environnement urbain pour tous. Notre
+                modèle coopératif garantit que chaque membre de l'équipe est
+                valorisé et impliqué.
               </p>
 
               <p className="text-lg leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Our
-                cooperative model ensures fair wages and worker ownership.
+                En tant que coopérative, nous privilégions :
               </p>
 
-              <p className="text-lg leading-relaxed">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. We're
-                accountable to our community and our planet.
-              </p>
+              <ul className="space-y-3 text-lg">
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-courier-lime rounded-full mr-3"></div>
+                  Des conditions de travail équitables
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-courier-lime rounded-full mr-3"></div>
+                  Une prise de décision démocratique
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-courier-lime rounded-full mr-3"></div>
+                  La transparence dans nos opérations
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-courier-lime rounded-full mr-3"></div>
+                  L'engagement environnemental
+                </li>
+              </ul>
             </div>
           </div>
         </div>

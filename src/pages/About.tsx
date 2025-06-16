@@ -6,39 +6,39 @@ const About = () => {
   const teamMembers = [
     {
       name: "Alex Rodriguez",
-      role: "Co-founder & Operations",
+      role: "Co-fondateur & Opérations",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Passionate about sustainable urban logistics.",
+        "Passionné par la logistique urbaine durable et le développement de solutions écologiques.",
       image: "team-1",
     },
     {
       name: "Jordan Kim",
-      role: "Co-founder & Technology",
+      role: "Co-fondateur & Technologie",
       description:
-        "Sed do eiusmod tempor incididunt ut labore. Expert in logistics technology and route optimization.",
+        "Expert en technologie logistique et optimisation des itinéraires pour une efficacité maximale.",
       image: "team-2",
     },
     {
       name: "Sam Johnson",
-      role: "Lead Courier",
+      role: "Coursier Principal",
       description:
-        "Ut enim ad minim veniam, quis nostrud exercitation. 5+ years of urban cycling experience.",
+        "Plus de 5 ans d'expérience en cyclisme urbain et livraison écologique.",
       image: "team-3",
     },
     {
       name: "Casey Park",
-      role: "Customer Relations",
+      role: "Relations Clients",
       description:
-        "Duis aute irure dolor in reprehenderit. Dedicated to exceptional customer service and support.",
+        "Dévouée au service client exceptionnel et au support personnalisé.",
       image: "team-4",
     },
   ];
 
   const stats = [
-    { number: "10,000+", label: "Deliveries Completed" },
-    { number: "500+", label: "Happy Clients" },
-    { number: "50+", label: "Partner Businesses" },
-    { number: "0", label: "Carbon Emissions" },
+    { number: "10,000+", label: "Livraisons Effectuées" },
+    { number: "500+", label: "Clients Satisfaits" },
+    { number: "50+", label: "Entreprises Partenaires" },
+    { number: "0", label: "Émissions Carbone" },
   ];
 
   return (
@@ -49,11 +49,11 @@ const About = () => {
       <section className="bg-courier-accent pt-24 pb-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-asap font-extrabold text-courier-dark mb-6">
-            <span className="block text-4xl md:text-6xl">About Us</span>
+            <span className="block text-4xl md:text-6xl">À Propos</span>
           </h1>
           <p className="font-asap text-courier-dark text-xl max-w-3xl mx-auto">
-            A cooperative of dedicated cyclists committed to sustainable urban
-            delivery and exceptional customer service.
+            Une coopérative de cyclistes dévoués, engagée dans la livraison urbaine
+            durable et un service client exceptionnel.
           </p>
         </div>
       </section>
@@ -64,25 +64,24 @@ const About = () => {
           <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
             <div className="lg:w-1/2">
               <h2 className="font-asap font-extrabold text-section text-courier-dark mb-6">
-                Our Story
+                Notre Histoire
               </h2>
               <div className="space-y-6 text-courier-dark font-asap text-lg">
                 <p>
-                  Founded in 2024, CourierCo started as a small group of
-                  cyclists passionate about creating a more sustainable and
-                  equitable delivery system in our city.
+                  Fondé en 2024, Rocket Courrier a débuté comme un petit groupe de
+                  cyclistes passionnés par la création d'un système de livraison plus
+                  durable et équitable dans notre ville.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  We believe that delivery services should benefit both
-                  businesses and the communities they serve.
+                  Notre vision était simple : proposer un service de livraison qui
+                  profite à la fois aux entreprises et aux communautés qu'elles
+                  servent, tout en préservant l'environnement.
                 </p>
                 <p>
-                  Today, we're proud to be the city's leading bicycle-powered
-                  courier cooperative, serving hundreds of local businesses
-                  while maintaining our commitment to sustainability and worker
-                  ownership.
+                  Aujourd'hui, nous sommes fiers d'être la principale coopérative
+                  de livraison à vélo de Genève, servant des centaines d'entreprises
+                  locales tout en maintenant notre engagement envers la durabilité
+                  et la propriété collective.
                 </p>
               </div>
             </div>
@@ -90,7 +89,7 @@ const About = () => {
             <div className="lg:w-1/2">
               <div className="w-full h-96 bg-gray-300 rounded-lg flex items-center justify-center">
                 <span className="text-gray-600 font-asap text-xl">
-                  Company Story Image
+                  Notre Histoire en Images
                 </span>
               </div>
             </div>
@@ -102,7 +101,7 @@ const About = () => {
       <section className="py-20 bg-courier-dark">
         <div className="container mx-auto px-4">
           <h2 className="font-asap font-extrabold text-section text-courier-light text-center mb-12">
-            By the Numbers
+            En Chiffres
           </h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
             {stats.map((stat, index) => (
@@ -124,11 +123,11 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="font-asap font-extrabold text-section text-courier-dark mb-6">
-              Our Mission & Values
+              Notre Mission & Nos Valeurs
             </h2>
             <p className="font-asap text-courier-dark text-xl">
-              We're committed to creating positive change in urban logistics
-              through sustainable practices and cooperative ownership.
+              Nous nous engageons à créer un changement positif dans la logistique urbaine
+              grâce à des pratiques durables et une gestion coopérative.
             </p>
           </div>
 
@@ -136,14 +135,14 @@ const About = () => {
             <Card className="border-2 border-courier-dark">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-courier-lime rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-courier-dark font-bold text-xl">S</span>
+                  <span className="text-courier-dark font-bold text-xl">D</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
-                  Sustainable
+                  Durable
                 </h3>
                 <p className="font-asap text-courier-dark">
-                  Zero emissions delivery using only bicycle-powered transport
-                  for a cleaner urban environment.
+                  Livraison zéro émission utilisant uniquement des vélos pour un
+                  environnement urbain plus propre.
                 </p>
               </CardContent>
             </Card>
@@ -151,14 +150,14 @@ const About = () => {
             <Card className="border-2 border-courier-dark">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-courier-lime rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-courier-dark font-bold text-xl">E</span>
+                  <span className="text-courier-dark font-bold text-xl">É</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
-                  Equitable
+                  Équitable
                 </h3>
                 <p className="font-asap text-courier-dark">
-                  Worker-owned cooperative model ensuring fair wages and shared
-                  decision-making for all team members.
+                  Modèle coopératif garantissant des salaires justes et une
+                  participation aux décisions pour tous les membres.
                 </p>
               </CardContent>
             </Card>
@@ -166,14 +165,14 @@ const About = () => {
             <Card className="border-2 border-courier-dark">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-courier-lime rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-courier-dark font-bold text-xl">R</span>
+                  <span className="text-courier-dark font-bold text-xl">F</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
-                  Reliable
+                  Fiable
                 </h3>
                 <p className="font-asap text-courier-dark">
-                  Consistent, professional service with real-time tracking and
-                  transparent communication.
+                  Service professionnel constant avec suivi en temps réel et
+                  communication transparente.
                 </p>
               </CardContent>
             </Card>
@@ -185,7 +184,7 @@ const About = () => {
       <section className="py-20 bg-courier-accent">
         <div className="container mx-auto px-4">
           <h2 className="font-asap font-extrabold text-section text-courier-dark text-center mb-12">
-            Meet the Team
+            Notre Équipe
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {teamMembers.map((member, index) => (

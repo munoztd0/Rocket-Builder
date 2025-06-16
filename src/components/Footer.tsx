@@ -18,17 +18,17 @@ const Footer = () => {
       <div className="py-20 text-center">
         <h2 className="font-asap font-extrabold text-courier-dark mb-8 leading-tight">
           <span className="block text-4xl md:text-6xl lg:text-hero">
-            Request a free
+            Demandez un
           </span>
           <span className="block text-4xl md:text-6xl lg:text-hero">
-            account now
+            compte gratuit
           </span>
         </h2>
         <Button
           size="lg"
           className="bg-courier-dark hover:bg-courier-dark/90 text-courier-light font-asap text-lg px-8 py-4"
         >
-          Get Started Today
+          Commencer maintenant
         </Button>
       </div>
 
@@ -39,17 +39,17 @@ const Footer = () => {
             {/* Company Logo & Description */}
             <div className="md:col-span-1">
               <h3 className="font-asap font-bold text-courier-light text-xl mb-4">
-                CourierCo
+                Rocket Courrier
               </h3>
               <p className="font-asap text-courier-light text-sm leading-relaxed">
-                Your sustainable delivery partner in the city.
+                Votre partenaire de livraison durable en ville.
               </p>
             </div>
 
             {/* Quick Links */}
             <div className="md:col-span-1">
               <h4 className="font-asap font-bold text-courier-light text-lg mb-4">
-                Quick Links
+                Liens Rapides
               </h4>
               <ul className="space-y-2">
                 <li>
@@ -57,7 +57,7 @@ const Footer = () => {
                     to="/services"
                     className="font-asap text-courier-light hover:text-courier-lime transition-colors"
                   >
-                    Open an Account
+                    Ouvrir un compte
                   </Link>
                 </li>
                 <li>
@@ -65,7 +65,7 @@ const Footer = () => {
                     to="/contact"
                     className="font-asap text-courier-light hover:text-courier-lime transition-colors"
                   >
-                    Book a Delivery
+                    Réserver une course
                   </Link>
                 </li>
                 <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                     href="#"
                     className="font-asap text-courier-light hover:text-courier-lime transition-colors"
                   >
-                    Express Service
+                    Service Express
                   </a>
                 </li>
                 <li>
@@ -84,35 +84,27 @@ const Footer = () => {
                     FAQ
                   </a>
                 </li>
-                <li>
-                  <Link
-                    to="/contact"
-                    className="font-asap text-courier-light hover:text-courier-lime transition-colors"
-                  >
-                    Contact Us
-                  </Link>
-                </li>
               </ul>
             </div>
 
             {/* Contact Info */}
             <div className="md:col-span-1">
               <h4 className="font-asap font-bold text-courier-light text-lg mb-4">
-                Contact Info
+                Contact
               </h4>
               <div className="space-y-2 font-asap text-courier-light text-sm">
-                <p>123 Main Street</p>
-                <p>City, Province A1A 1A1</p>
-                <p>555 – 123 – 4567</p>
-                <p>Mon-Fri 9am – 6pm</p>
-                <p>Sat-Sun 12pm – 9pm</p>
+                <p>123 Rue du Rhône</p>
+                <p>Genève, 1204</p>
+                <p>022 123 45 67</p>
+                <p>Lun-Ven 9h – 18h</p>
+                <p>Sam-Dim 12h – 21h</p>
               </div>
             </div>
 
             {/* Partner Logos */}
             <div className="md:col-span-1">
               <h4 className="font-asap font-bold text-courier-light text-lg mb-4">
-                Our Partners
+                Nos Partenaires
               </h4>
               <div className="grid grid-cols-2 gap-2">
                 {partnerLogos.map((logo, index) => (
@@ -134,20 +126,20 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
                 <p className="font-asap text-courier-light text-sm">
-                  © 2024 CourierCo. All Rights Reserved.
+                  © 2024 Rocket Courrier. Tous droits réservés.
                 </p>
                 <div className="flex space-x-4">
                   <a
                     href="#"
                     className="font-asap text-courier-light hover:text-courier-lime transition-colors text-sm"
                   >
-                    Terms & Conditions
+                    Conditions générales
                   </a>
                   <a
                     href="#"
                     className="font-asap text-courier-light hover:text-courier-lime transition-colors text-sm"
                   >
-                    Privacy Policy
+                    Politique de confidentialité
                   </a>
                 </div>
               </div>

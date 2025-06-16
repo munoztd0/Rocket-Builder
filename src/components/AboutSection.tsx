@@ -8,25 +8,24 @@ const AboutSection = () => {
           {/* Text Content */}
           <div className="lg:w-1/2">
             <h2 className="font-asap font-extrabold text-section text-courier-dark mb-6 leading-tight">
-              The city's only rider-run, 100% bicycle powered courier co-op
+              La seule coopérative de coursiers 100% à vélo, gérée par ses membres à Genève
             </h2>
 
             <div className="space-y-6 text-courier-dark font-asap">
               <p className="text-lg leading-relaxed">
-                Since 2024 we've been working seven days a week to provide fast,
-                reliable, and sustainable delivery solutions throughout the
-                metropolitan area.
+                Depuis 2024, nous travaillons sept jours sur sept pour fournir des solutions 
+                de livraison rapides, fiables et durables dans toute la région genevoise.
               </p>
 
               <p className="text-lg leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Notre équipe de coursiers professionnels s'engage à offrir un service 
+                de qualité tout en respectant l'environnement et en promouvant une 
+                économie locale et solidaire.
               </p>
 
               <p className="text-lg leading-relaxed">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                En tant que coopérative, nous assurons des conditions de travail équitables 
+                et une participation active de tous nos membres aux décisions.
               </p>
             </div>
           </div>

@@ -9,34 +9,34 @@ import { Label } from "@/components/ui/label";
 const Contact = () => {
   const contactInfo = [
     {
-      title: "Phone",
-      details: "555 – 123 – 4567",
+      title: "Téléphone",
+      details: "022 123 45 67",
       icon: "📞",
     },
     {
       title: "Email",
-      details: "hello@courierco.com",
+      details: "hello@rocketcourrier.ch",
       icon: "✉️",
     },
     {
-      title: "Address",
-      details: "123 Main Street\nCity, Province A1A 1A1",
+      title: "Adresse",
+      details: "123 Rue du Rhône\nGenève, 1204",
       icon: "📍",
     },
     {
-      title: "Hours",
-      details: "Mon-Fri: 9am – 6pm\nSat-Sun: 12pm – 9pm",
+      title: "Horaires",
+      details: "Lun-Ven: 9h – 18h\nSam-Dim: 12h – 21h",
       icon: "🕒",
     },
   ];
 
   const services = [
-    "Same-day delivery",
-    "Express courier",
-    "E-commerce fulfillment",
-    "Food delivery",
-    "Bulk deliveries",
-    "Custom logistics",
+    "Livraison le jour même",
+    "Coursier express",
+    "Logistique e-commerce",
+    "Livraison alimentaire",
+    "Livraisons groupées",
+    "Logistique sur mesure",
   ];
 
   return (
@@ -47,11 +47,11 @@ const Contact = () => {
       <section className="bg-courier-accent pt-24 pb-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-asap font-extrabold text-courier-dark mb-6">
-            <span className="block text-4xl md:text-6xl">Contact Us</span>
+            <span className="block text-4xl md:text-6xl">Contactez-nous</span>
           </h1>
           <p className="font-asap text-courier-dark text-xl max-w-3xl mx-auto">
-            Ready to start your sustainable delivery journey? Get in touch with
-            our team for quotes, questions, or to open your account.
+            Prêt à commencer votre voyage vers une livraison durable ? Contactez notre
+            équipe pour des devis, des questions ou pour ouvrir votre compte.
           </p>
         </div>
       </section>
@@ -63,11 +63,6 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="lg:w-2/3">
               <Card className="border-2 border-courier-dark">
-                <CardHeader>
-                  <CardTitle className="font-asap font-bold text-2xl text-courier-dark">
-                    Send us a message
-                  </CardTitle>
-                </CardHeader>
                 <CardContent className="p-6">
                   <form className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -76,11 +71,10 @@ const Contact = () => {
                           htmlFor="firstName"
                           className="font-asap text-courier-dark"
                         >
-                          First Name
+                          Prénom
                         </Label>
                         <Input
                           id="firstName"
-                          placeholder="Your first name"
                           className="border-courier-dark focus:border-courier-lime"
                         />
                       </div>
@@ -89,11 +83,10 @@ const Contact = () => {
                           htmlFor="lastName"
                           className="font-asap text-courier-dark"
                         >
-                          Last Name
+                          Nom
                         </Label>
                         <Input
                           id="lastName"
-                          placeholder="Your last name"
                           className="border-courier-dark focus:border-courier-lime"
                         />
                       </div>
@@ -104,26 +97,25 @@ const Contact = () => {
                         htmlFor="email"
                         className="font-asap text-courier-dark"
                       >
-                        Email Address
+                        Email
                       </Label>
                       <Input
                         id="email"
                         type="email"
-                        placeholder="your.email@example.com"
                         className="border-courier-dark focus:border-courier-lime"
                       />
                     </div>
 
                     <div>
                       <Label
-                        htmlFor="company"
+                        htmlFor="phone"
                         className="font-asap text-courier-dark"
                       >
-                        Company (Optional)
+                        Téléphone
                       </Label>
                       <Input
-                        id="company"
-                        placeholder="Your company name"
+                        id="phone"
+                        type="tel"
                         className="border-courier-dark focus:border-courier-lime"
                       />
                     </div>
@@ -133,10 +125,10 @@ const Contact = () => {
                         htmlFor="service"
                         className="font-asap text-courier-dark"
                       >
-                        Service Interest
+                        Service
                       </Label>
                       <select className="w-full p-3 border-2 border-courier-dark rounded-md focus:border-courier-lime bg-white">
-                        <option value="">Select a service</option>
+                        <option value="">Sélectionnez un service</option>
                         {services.map((service, index) => (
                           <option key={index} value={service}>
                             {service}
@@ -154,7 +146,7 @@ const Contact = () => {
                       </Label>
                       <Textarea
                         id="message"
-                        placeholder="Tell us about your delivery needs..."
+                        placeholder="Parlez-nous de vos besoins de livraison..."
                         rows={6}
                         className="border-courier-dark focus:border-courier-lime"
                       />
@@ -165,68 +157,64 @@ const Contact = () => {
                       size="lg"
                       className="w-full bg-courier-dark hover:bg-courier-dark/90 text-courier-light font-asap"
                     >
-                      Send Message
+                      Envoyer le message
                     </Button>
                   </form>
                 </CardContent>
               </Card>
             </div>
 
-            {/* Contact Information */}
-            <div className="lg:w-1/3">
-              <div className="space-y-6">
-                <h2 className="font-asap font-extrabold text-2xl text-courier-dark mb-6">
-                  Get in Touch
-                </h2>
+            {/* Side Cards */}
+            <div className="lg:w-1/3 space-y-6">
+              {/* Quick Actions Card */}
+              <Card className="border-2 border-courier-dark">
+                <CardContent className="p-6">
+                  <h3 className="font-asap font-bold text-lg text-courier-dark mb-4">
+                    Actions Rapides
+                  </h3>
+                  <div className="space-y-3">
+                    <Button
+                      className="w-full bg-courier-dark hover:bg-courier-dark/90 text-courier-light font-asap"
+                      size="sm"
+                    >
+                      Demander un devis
+                    </Button>
+                    <Button
+                      variant="outline"
+                      className="w-full border-courier-dark text-courier-dark hover:bg-courier-dark hover:text-courier-light font-asap"
+                      size="sm"
+                    >
+                      Réserver une course
+                    </Button>
+                    <Button
+                      variant="outline"
+                      className="w-full border-courier-dark text-courier-dark hover:bg-courier-dark hover:text-courier-light font-asap"
+                      size="sm"
+                    >
+                      Ouvrir un compte
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
 
+              {/* Contact Info Grid */}
+              <div className="grid grid-cols-2 gap-4">
                 {contactInfo.map((info, index) => (
-                  <Card key={index} className="border-2 border-courier-dark">
-                    <CardContent className="p-6">
-                      <div className="flex items-start space-x-4">
-                        <div className="text-2xl">{info.icon}</div>
-                        <div>
-                          <h3 className="font-asap font-bold text-lg text-courier-dark mb-2">
-                            {info.title}
-                          </h3>
-                          <p className="font-asap text-courier-dark whitespace-pre-line">
-                            {info.details}
-                          </p>
-                        </div>
-                      </div>
+                  <Card
+                    key={index}
+                    className="border-2 border-courier-dark bg-courier-light"
+                  >
+                    <CardContent className="p-4 text-center">
+                      <div className="text-3xl mb-2">{info.icon}</div>
+                      <h3 className="font-asap font-bold text-courier-dark mb-1">
+                        {info.title}
+                      </h3>
+                      <p className="font-asap text-courier-dark text-sm whitespace-pre-line">
+                        {info.details}
+                      </p>
                     </CardContent>
                   </Card>
                 ))}
-
-                {/* Quick Actions */}
-                <Card className="border-2 border-courier-dark bg-courier-accent">
-                  <CardContent className="p-6">
-                    <h3 className="font-asap font-bold text-lg text-courier-dark mb-4">
-                      Quick Actions
-                    </h3>
-                    <div className="space-y-3">
-                      <Button
-                        className="w-full bg-courier-dark hover:bg-courier-dark/90 text-courier-light font-asap"
-                        size="sm"
-                      >
-                        Request Quote
-                      </Button>
-                      <Button
-                        variant="outline"
-                        className="w-full border-courier-dark text-courier-dark hover:bg-courier-dark hover:text-courier-light font-asap"
-                        size="sm"
-                      >
-                        Book Delivery
-                      </Button>
-                      <Button
-                        variant="outline"
-                        className="w-full border-courier-dark text-courier-dark hover:bg-courier-dark hover:text-courier-light font-asap"
-                        size="sm"
-                      >
-                        Open Account
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
               </div>
             </div>
           </div>
@@ -238,11 +226,10 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="font-asap font-extrabold text-section text-courier-dark mb-6">
-              Visit Our Hub
+              Visitez Notre Hub
             </h2>
             <p className="font-asap text-courier-dark text-xl">
-              Stop by our central hub to meet the team and see our operations in
-              action.
+              Passez à notre hub central pour rencontrer l'équipe et voir nos opérations en action.
             </p>
           </div>
 
@@ -252,10 +239,10 @@ const Contact = () => {
               <div className="w-full h-96 bg-gray-300 rounded-lg flex items-center justify-center">
                 <div className="text-center">
                   <span className="text-gray-600 font-asap text-xl block mb-2">
-                    Interactive Map
+                    Carte Interactive
                   </span>
                   <span className="text-gray-500 font-asap text-sm">
-                    123 Main Street, City
+                    123 Rue du Rhône, Genève
                   </span>
                 </div>
               </div>
@@ -266,36 +253,36 @@ const Contact = () => {
               <Card className="border-2 border-courier-dark h-fit">
                 <CardContent className="p-6">
                   <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
-                    Hub Information
+                    Informations Hub
                   </h3>
                   <div className="space-y-4 font-asap text-courier-dark">
                     <div>
-                      <strong>Address:</strong>
+                      <strong>Adresse:</strong>
                       <br />
-                      123 Main Street
+                      123 Rue du Rhône
                       <br />
-                      City, Province A1A 1A1
+                      Genève, 1204
                     </div>
                     <div>
-                      <strong>Parking:</strong>
+                      <strong>Stationnement:</strong>
                       <br />
-                      Bike racks available
+                      Supports vélos disponibles
                       <br />
-                      Street parking nearby
+                      Parking public à proximité
                     </div>
                     <div>
-                      <strong>Accessibility:</strong>
+                      <strong>Accessibilité:</strong>
                       <br />
-                      Ground floor access
+                      Accès plain-pied
                       <br />
-                      Wheelchair accessible
+                      Accessible en fauteuil roulant
                     </div>
                     <div>
-                      <strong>Transit:</strong>
+                      <strong>Transport:</strong>
                       <br />
-                      Bus stop: 2 blocks
+                      Arrêt TPG: 2 minutes
                       <br />
-                      Metro station: 0.5 km
+                      Gare Cornavin: 10 minutes
                     </div>
                   </div>
                 </CardContent>
