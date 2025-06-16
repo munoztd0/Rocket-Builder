@@ -3,44 +3,33 @@ import { cn } from "@/lib/utils";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen bg-courier-accent pt-20 flex flex-col items-center justify-center overflow-hidden">
-      {/* Character Image Left */}
-      <div className="absolute left-4 top-1/2 transform -translate-y-1/2 hidden lg:block">
-        <div className="w-48 h-64 bg-gray-300 rounded-lg overflow-hidden">
-          <img 
-            src="/messenger_portait.jpeg" 
-            alt="Coursier à vélo"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 w-full h-full z-0"
+        style={{
+          backgroundImage: 'url(/Rocket-Builder/img/hero-background.jpeg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      />
 
-      {/* Character Image Right */}
-      <div className="absolute right-4 top-1/2 transform -translate-y-1/2 hidden lg:block">
-        <div className="w-48 h-64 bg-gray-300 rounded-lg overflow-hidden">
-          <img 
-            src="/cargo_bike_landscape.jpeg" 
-            alt="Vélo cargo"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-courier-dark/70 z-10" />
 
       {/* Hero Text */}
-      <div className="text-center px-4 max-w-4xl mx-auto z-10">
+      <div className="text-center px-4 max-w-4xl mx-auto z-20">
         <h1 className="font-asap font-bold text-courier-light leading-tight mb-8">
           <span className="block text-4xl md:text-6xl lg:text-hero">
-            Local & indépendant
+            Coopérative de coursier·ère·s
           </span>
           <span className="block text-4xl md:text-6xl lg:text-hero">
-            Coopérative de coursiers
+            locale & indépendante
           </span>
-          <span className="block text-4xl md:text-6xl lg:text-hero">
+          {/* <span className="block text-4xl md:text-6xl lg:text-hero">
             à Genève
-          </span>
-          <span className="block text-4xl md:text-6xl lg:text-hero">
-            depuis 2024
-          </span>
+          </span> */}
         </h1>
 
         <p className="text-courier-light text-lg md:text-xl font-asap max-w-2xl mx-auto">
@@ -48,9 +37,9 @@ const Hero = () => {
         </p>
       </div>
 
-      {/* Floating elements for visual interest */}
-      <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-courier-lime rounded-full opacity-70 animate-pulse"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-6 h-6 bg-courier-lime rounded-full opacity-50 animate-pulse delay-300"></div>
+      {/* Floating elements for visual interest - made more subtle */}
+      <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-courier-lime rounded-full opacity-30 animate-pulse z-20"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-6 h-6 bg-courier-lime rounded-full opacity-20 animate-pulse delay-300 z-20"></div>
     </section>
   );
 };

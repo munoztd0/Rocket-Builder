@@ -4,54 +4,77 @@ import { cn } from "@/lib/utils";
 const ServicesSection = () => {
   const services = [
     {
-      title: "E-commerce & Wholesale",
-      subtitle: "Stock Management Solutions",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      image: "service-1",
+      title: "Rapide",
+      stats: [
+        "Prise en charge : 25 minutes",
+        "Délai de livraison : 1 heure",
+        "Prix : dès 17.- CHF*",
+      ],
+      description: "Pour vos livraisons standard en centre-ville",
+      image: "rapide",
     },
     {
-      title: "Same-day Express",
-      subtitle: "Courier Services",
-      description:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
-      image: "service-2",
+      title: "Rocket",
+      stats: [
+        "Prise en charge : immédiate",
+        "Délai de livraison : 30 minutes",
+        "Prix : dès 34.- CHF*",
+      ],
+      description: "Pour vos livraisons ultra-urgentes",
+      image: "rocket",
     },
     {
-      title: "On-demand Food",
-      subtitle: "& Catering Delivery",
-      description:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      image: "service-3",
+      title: "Cargo",
+      stats: [
+        "Prise en charge : 45 minutes",
+        "Délai de livraison : 1 heure 30",
+        "Prix : dès 34.- CHF*",
+      ],
+      description: "Pour vos colis volumineux",
+      image: "cargo",
     },
   ];
 
   return (
-    <section className="bg-courier-dark py-20">
+    <section className="bg-courier-light py-20">
       <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold text-courier-dark text-center mb-12">
+          Nos Services
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <div key={index} className="text-center">
-              {/* Service Image Placeholder */}
-              <div className="w-full h-64 bg-gray-300 rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-600 font-asap">{service.image}</span>
+              {/* Service Image */}
+              <div className="w-full h-64 overflow-hidden rounded-lg mb-6">
+                <img
+                  src={`/Rocket-Builder/img/${service.image}.jpeg`}
+                  alt={`Service ${service.title}`}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Service Content */}
-              <div className="text-courier-light">
-                <h3 className="font-asap font-bold text-section mb-2">
+              <div className="text-courier-dark">
+                <h3 className="font-asap font-bold text-3xl mb-4">
                   {service.title}
                 </h3>
-                <h4 className="font-asap font-bold text-section mb-4">
-                  {service.subtitle}
-                </h4>
-                <p className="font-asap text-base leading-relaxed">
+                <p className="font-asap text-base mb-6">
                   {service.description}
                 </p>
+                <ul className="space-y-2 text-left mb-4">
+                  {service.stats.map((stat, idx) => (
+                    <li key={idx} className="font-asap text-base">
+                      {stat}
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           ))}
         </div>
+        <p className="text-center mt-12 text-courier-dark/70 font-asap text-sm">
+          * Prix de base pour le centre-ville. Des suppléments peuvent s'appliquer selon le poids ou la distance.
+        </p>
       </div>
     </section>
   );

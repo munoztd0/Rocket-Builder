@@ -2,41 +2,41 @@ import { cn } from "@/lib/utils";
 
 const AboutSection = () => {
   return (
-    <section className="bg-courier-light py-20">
+    <section className="bg-white py-20">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
-          {/* Text Content */}
-          <div className="lg:w-1/2">
-            <h2 className="font-asap font-extrabold text-section text-courier-dark mb-6 leading-tight">
-              La seule coopérative de coursiers 100% à vélo, gérée par ses membres à Genève
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Content */}
+          <div className="text-courier-dark">
+            <h2 className="text-4xl font-bold mb-6">
+              À Propos
             </h2>
-
-            <div className="space-y-6 text-courier-dark font-asap">
-              <p className="text-lg leading-relaxed">
-                Depuis 2024, nous travaillons sept jours sur sept pour fournir des solutions 
-                de livraison rapides, fiables et durables dans toute la région genevoise.
+            <div className="space-y-6">
+              <p className="text-lg">
+                Rocket Courrier est une coopérative de cyclomessagerie basée à
+                Genève. Nous offrons des services de livraison écologiques,
+                efficaces et personnalisés pour répondre aux besoins de nos
+                clients.
               </p>
-
-              <p className="text-lg leading-relaxed">
-                Notre équipe de coursiers professionnels s'engage à offrir un service 
-                de qualité tout en respectant l'environnement et en promouvant une 
-                économie locale et solidaire.
+              <p className="text-lg">
+                Notre équipe de coursiers professionnels s'engage à fournir un
+                service rapide et fiable, que ce soit pour des documents urgents
+                ou des colis volumineux.
               </p>
-
-              <p className="text-lg leading-relaxed">
-                En tant que coopérative, nous assurons des conditions de travail équitables 
-                et une participation active de tous nos membres aux décisions.
+              <p className="text-lg">
+                En tant que coopérative, nous croyons en une approche équitable
+                et durable du service de livraison, où chaque membre contribue
+                au succès de l'entreprise.
               </p>
             </div>
           </div>
 
-          {/* Rider Image */}
-          <div className="lg:w-1/2">
-            <div className="w-full h-96 bg-gray-300 rounded-lg flex items-center justify-center">
-              <span className="text-gray-600 font-asap text-xl">
-                Rider Portrait
-              </span>
-            </div>
+          {/* Image */}
+          <div>
+            <img
+              src="/Rocket-Builder/img/messenger_portait.jpeg"
+              alt="About Rocket Courrier"
+              className="rounded-lg shadow-xl w-full h-[500px] object-cover"
+            />
           </div>
         </div>
       </div>
