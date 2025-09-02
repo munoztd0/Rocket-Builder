@@ -1,123 +1,82 @@
 # Conditions Générales
 
-## Responsabilité du client
+## 1. Rocket courrier
 
-Le/la mandataire est chargé.e de transmettre toutes les informations nécessaires au bon déroulement de la prestation :
+ci-après dénommés « le transporteur », proposent un service de livraison par coursier à vélo en Suisse. Les présentes conditions générales (CG) régissent la relation entre le transporteur et l'expéditeur (client ou mandant) pour toute commande de transport national. En passant commande, l'expéditeur accepte ces CG. Le contrat est conclu dès l'acceptation de la commande par le transporteur et reste valable jusqu'à la livraison de l'envoi.
 
-- Nom/compagnie, adresse, numéro de téléphone, personne de contact, et tout autre renseignement requis (code, numéro de boîte aux lettres…) du mandataire et du destinataire.
-- Tout besoin spécifique lié à la manutention et distribution du colis.
+## 2. Commande, adressage et emballage
 
-## Distribution et réception
+La commande doit être effectuée par téléphone ou par écrit (y compris par voie électronique) et inclure toutes les informations nécessaires à la livraison, notamment les consignes relatives aux marchandises réglementées (ex. : matières dangereuses), fragiles, de grande valeur ou nécessitant une manipulation particulière. L'expéditeur est responsable de l'exactitude, de la complétude et de la lisibilité des informations d'adressage. Les marchandises doivent être protégées par un emballage adapté. Le transporteur peut facturer des frais supplémentaires pour les envois nécessitant un traitement particulier ou en cas de non-conformité.
 
-Outre cas spécifique, une signature est exigée à la réception de la marchandise.  
-Tout colis déposé sans signature à la demande du destinataire ou du mandataire n’est plus sous la responsabilité de Rocket Courrier.
+## 3. Prise en charge
 
-## Emballage
+L'envoi doit être remis dans un état permettant son transport. Le transporteur se réserve le droit de refuser les envois non conformes aux indications fournies lors de la commande. Les coûts découlant d'un refus ou d'un traitement supplémentaire sont facturés à l'expéditeur.
 
-Il est de la responsabilité du client d’emballer le colis de manière à permettre son transport sans encombre.
+## 4. Responsabilité du transporteur
 
-## Colis non conforme
+Le transporteur est responsable des dommages survenus entre la prise en charge et la livraison, sous réserve de son droit de refuser une commande. La responsabilité est exclue dans les cas suivants :
+- Dégâts dus à un emballage insuffisant ou inapproprié ;
+- Dommages ou carences des marchandises dans des caisses, cartons ou conteneurs dont l'état n'a pas pu être vérifié à la prise en charge ;
+- Cas de force majeure ;
+- Transport d'objets précieux (or, argent, bijoux, montres, pierres précieuses, chèques) ;
+- Dommages électriques ou magnétiques, destruction ou dégâts aux disques magnétiques, supports électroniques ou photographiques ;
+- Envois déposés sans signature à la demande expresse de l'expéditeur ;
+- Dégâts indirects.
 
-Si le colis ne correspond pas à ce qui a été défini préalablement avec le/la mandataire, et que le/la coursier.ère se retrouve dans l’incapacité de réaliser la prestation, nous nous réservons le droit de l’annuler.  
-Les frais de la prestation seront tout de même facturés au client.
+Sans indication écrite de la valeur des marchandises, la responsabilité pour perte ou dommage est limitée à la valeur réelle de l'objet, avec un maximum de CHF 500.- par commande.
 
-## Temps d’attente
+## 5. Assurance de transport
 
-- Les 5 premières minutes d’attente sont comprises dans la prestation.
-- Au-delà, chaque tranche de 5 minutes sera facturée 5.- CHF.
+L'expéditeur peut souscrire une assurance pour les dommages ou pertes, à condition d'en faire la demande écrite avant la prise en charge.
+La valeur assurable maximale est de CHF 20'000.- par envoi*. 
+Les marchandise peuvent uniquement être assurées du lundi au vendredi entre 08:00 et 18:00 heures. 
 
-## Traitement de documents
+* Ne peuvent être assurés les espèces, les titres et les chèques au porteur. Il en va de même pour les bons d'achat.
+* Pour les bijoux, seules les montres peuvent être assurées, pas les pierres précieuses, bagues, colliers, bracelets et autres bijoux.
+      
+Des frais supplémentaires s'appliquent lors d'une couverture d'assurance spéciale.
 
-Le temps dédié par le/la coursier.ère au traitement de documents (file d’attente, signature…) est facturé au même titre que le temps d’attente.
+Sans cette demande, la responsabilité reste limitée comme stipulé à l'article 4.
 
-## Mauvaise adresse
+## 6. Dépassement du délai de livraison
 
-Des frais seront appliqués si, une fois rendu.e à l’adresse de prise en charge ou de livraison, le/la coursier.ère réalise que le client a communiqué une adresse incorrecte.  
-Si la zone de livraison de la nouvelle adresse diffère, l’équivalent d’une prestation additionnelle sera facturé.
+Les dommages dus à un retard de livraison ne sont indemnisés que si la responsabilité a été préalablement convenue. L'indemnisation est limitée à la moitié du prix du transport convenu, sous réserve de justification du dommage.
 
-## Livraison annulée, déplacée ou destinataire absent
+## 7. Contrôle et acceptation de la livraison
 
-- Toute livraison annulée ou déplacée **avant** que le/la coursier.ère ne soit rendu.e au lieu de retrait **n’occasionne aucun frais**.
-- Toute livraison annulée ou déplacée **après** que le/la coursier.ère se soit rendu.e au lieu de retrait **occasionne des frais équivalents au prix de la prestation**.
-- Si le destinataire est absent et que le colis doit être retourné ou délivré ultérieurement, l’équivalent d’une adresse supplémentaire est facturé.  
-Le colis est alors stocké aux frais et risques du mandataire.
+Les réclamations pour dommages ou marchandises manquantes doivent être signalées immédiatement sur le bulletin de livraison en présence du coursier ou, pour les dommages non visibles, par écrit dans les 8 jours suivant la livraison (art. 452, Code des obligations suisse). Les réclamations doivent être envoyées à info@rocket-courrier.ch. Toute personne présente au domicile ou au siège du destinataire est autorisée à réceptionner l'envoi. Le refus d'acceptation n'est possible qu'en cas de remise personnelle.
 
----
+## 8. Interdiction de compensation
 
-# Engagement Rocket Courrier
+L'imputation des dommages sur le montant de la commande est exclue.
 
-## Engagement
+## 9. Obligation de paiement
 
-Rocket Courrier s’engage à accomplir les prestations dans les termes convenus avec professionnalisme, soin et confidentialité.
+À la prise en charge, l'expéditeur s'engage à payer la livraison au tarif en vigueur ou garantit le paiement par le destinataire ou un tiers. Les factures, émises en fin de mois, doivent être réglées sous 30 jours. En cas de retard, des frais supplémentaires peuvent être facturés.
 
-## Délais de livraison
+## 10. Annulation
 
-En cas de dépassement de plus de 10 minutes des délais de livraison (hors cas de force majeure), le mandataire peut demander une révision du prix.
+L'annulation d'une commande avant prise en charge entraîne le paiement de 50% du tarif. Après prise en charge, le montant total est dû.
 
-## Marchandises non prises en charge
+## 11. Envois non distribuables
 
-Rocket Courrier ne prend pas en charge les marchandises illicites.  
-La responsabilité du contenu incombe au client. En cas de contrôle, le/la coursier.ère n’est en aucun cas responsable.
+Sont considérés comme non distribuables les envois dont le destinataire est introuvable ou qui sont refusés. Ces envois sont retournés à l'expéditeur à ses frais, sans remboursement du prix initial.
 
-## Détérioration ou vol
+## 12. Sous-traitance
 
-Rocket Courrier couvre un dédommagement jusqu’à **CHF 500.-** en cas de vol ou détérioration entre la prise en charge et la remise.
+Le transporteur peut recourir à des tiers pour exécuter ses prestations, en informant l'expéditeur du mode de transport.
 
-**Exceptions :**
+## 13. Modification des conditions générales
 
-- Dommages dus à un emballage inadéquat.
-- Marchandises déjà abîmées avant la prise en charge.
-- Dommages liés aux aléas naturels (pluie, neige, température), malgré les précautions prises.
-- Colis non remis en main propre sur demande du client.
+Le transporteur se réserve le droit de modifier ces CG à tout moment.
 
-Les détériorations doivent être signalées à **info@rocket-courrier.ch** dans les **8 jours**.
+## 14. Caractère dissociable des dispositions
 
-## Limitations de la responsabilité
+L'invalidité d'une disposition n'affecte pas la validité des autres.
 
-Sans déclaration écrite de valeur sur le document de transport, la responsabilité est limitée à la valeur réelle (max. **CHF 500.-** par commande).
+## 15. Droit applicable et for
 
-## Protection des données
-
-Certaines données peuvent être conservées pour faciliter les futures prestations, mais elles restent confidentielles.
-
----
-
-# Prix
-
-- Les prix sur le site sont à titre indicatif.
-- Le prix final est fixé à la confirmation, mais peut être revu si les informations changent.
-
-## Avance d'argent
-
-Si Rocket Courrier avance des frais pour un client, un supplément de **5.- CHF par tranche de 100.- CHF** est appliqué.
-
-## Modalité de paiement
-
-- **Clients réguliers** : factures mensuelles, paiement sous **30 jours**.
-- **Clients occasionnels** : paiement le jour même.
-
-**Retards de paiement :**
-
-1. **1er rappel** : sans frais
-2. **2e rappel** : +5.- CHF
-3. **3e rappel** : +20.- CHF
-
-La confirmation orale ou écrite de la prestation engage le client et Rocket Courrier.
-
----
-
-# Organe de conciliation
-
-En cas de litige, l’**organe de conciliation PostCom** peut être consulté :  
-👉 [www.ombud-postcom.ch](https://www.ombud-postcom.ch)
-
-## Droit applicable / For juridique
-
-Le droit suisse s’applique. Le for juridique est à **Genève**.
-
-## Modification des conditions générales
-
-Rocket Courrier se réserve le droit de modifier ses conditions générales.
+Ces CG sont régies par le droit suisse. Le for juridique est Genève.
 
 ---
 
