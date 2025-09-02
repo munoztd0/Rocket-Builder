@@ -19,25 +19,24 @@ const ValuesSection = () => {
             <h2 className="text-4xl font-bold mb-6">Nos Valeurs</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold mb-2">Durable</h3>
+                <h3 className="text-2xl font-bold mb-2">Local et engagé</h3>
                 <p>
-                  Nous nous engageons à réduire notre impact environnemental en
-                  utilisant uniquement des vélos et des vélos cargo pour nos
-                  livraisons.
+                  Nous soutenons l'économie genevoise avec des partenaires locaux comme la Banque Alternative Suisse, 
+                  deeps, Dr Paper & Mister Tee, et l'imprimerie Bahnhofstrasse.
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Local</h3>
+                <h3 className="text-2xl font-bold mb-2">Service client d'exception</h3>
                 <p>
-                  En tant que coopérative genevoise, nous soutenons l'économie
-                  locale et créons des emplois équitables dans notre communauté.
+                  Rapidité, fiabilité et transparence sont nos priorités pour vous offrir
+                  un service irréprochable.
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Professionnel</h3>
+                <h3 className="text-2xl font-bold mb-2">Un avenir plus durable</h3>
                 <p>
-                  Notre équipe expérimentée assure un service rapide, fiable et
-                  professionnel pour toutes vos livraisons.
+                  Le vélo, c'est l'avenir des villes. Nos livraisons à vélo et vélo-cargo réduisent 
+                  le bruit et la pollution à Genève.
                 </p>
               </div>
             </div>

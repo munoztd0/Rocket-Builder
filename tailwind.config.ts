@@ -66,8 +66,8 @@ export default {
         courier: {
           dark: "rgb(146, 0, 199)",
           light: "rgb(255, 255, 255)",
-          accent: "rgb(62, 61, 61)",
-          lime: "rgb(4, 132, 42)",
+          accent: "rgb(239, 203, 242)",
+          lime: "rgb(247, 233, 233)",
         },
       },
       fontFamily: {

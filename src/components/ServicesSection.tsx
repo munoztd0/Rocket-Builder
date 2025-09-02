@@ -4,33 +4,30 @@ import { cn } from "@/lib/utils";
 const ServicesSection = () => {
   const services = [
     {
-      title: "Rapide",
-      stats: [
-        "Prise en charge : 25 minutes",
-        "Délai de livraison : 1 heure",
-        "Prix : dès 17.- CHF*",
-      ],
-      description: "Pour vos livraisons standard en centre-ville",
-      image: "rapide",
-    },
-    {
       title: "Rocket",
       stats: [
-        "Prise en charge : immédiate",
-        "Délai de livraison : 30 minutes",
+        "Livraison en 30 minutes",
         "Prix : dès 34.- CHF*",
       ],
-      description: "Pour vos livraisons ultra-urgentes",
+      description: "Service de livraison express pour vos envois urgents",
       image: "rocket",
+    },
+    {
+      title: "Normal",
+      stats: [
+        "Livraison en 1 heure au centre-ville",
+        "Prix : dès 17.- CHF*",
+      ],
+      description: "Service de livraison standard pour vos colis",
+      image: "rapide",
     },
     {
       title: "Cargo",
       stats: [
-        "Prise en charge : 45 minutes",
-        "Délai de livraison : 1 heure 30",
+        "Capacité jusqu'à 300 litres",
         "Prix : dès 34.- CHF*",
       ],
-      description: "Pour vos colis volumineux",
+      description: "Pour vos colis volumineux dans tout le canton de Genève, jusqu'à Nyon",
       image: "cargo",
     },
   ];
@@ -73,7 +70,7 @@ const ServicesSection = () => {
           ))}
         </div>
         <p className="text-center mt-12 text-courier-dark/70 font-asap text-sm">
-          * Prix de base pour le centre-ville. Des suppléments peuvent s'appliquer selon le poids ou la distance.
+          * Prix de base valable à Genève, Carouge, Acacias (1201-1209). Des suppléments peuvent s'appliquer selon le poids ou la distance.
         </p>
       </div>
     </section>

@@ -12,20 +12,19 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-6">
               <p className="text-lg">
-                Rocket Courrier est une coopérative de cyclomessagerie basée à
-                Genève. Nous offrons des services de livraison écologiques,
-                efficaces et personnalisés pour répondre aux besoins de nos
-                clients.
+                Rocket Courrier a été fondée en 2023 par huit coursiers passionnés à Genève. 
+                Notre équipe cumule plus de 80 ans d'expérience pour vous offrir un service 
+                rapide, fiable et ancré dans le tissu local.
               </p>
               <p className="text-lg">
-                Notre équipe de coursiers professionnels s'engage à fournir un
-                service rapide et fiable, que ce soit pour des documents urgents
-                ou des colis volumineux.
+                Nos vélos et vélos-cargos, propulsés à la seule force des jambes, garantissent 
+                des livraisons à faible impact environnemental. Nous livrons dans tout le canton 
+                de Genève, jusqu'à Nyon.
               </p>
               <p className="text-lg">
-                En tant que coopérative, nous croyons en une approche équitable
-                et durable du service de livraison, où chaque membre contribue
-                au succès de l'entreprise.
+                Avec Rocket Courrier, vos livraisons sont rapides, fiables et respectueuses 
+                de vos valeurs. Contactez-nous dès aujourd'hui pour un service qui fait la 
+                différence à Genève !
               </p>
             </div>
           </div>

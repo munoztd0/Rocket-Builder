@@ -1,5 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
@@ -20,21 +21,34 @@ const Hero = () => {
 
       {/* Hero Text */}
       <div className="text-center px-4 max-w-4xl mx-auto z-20">
-        <h1 className="font-asap font-bold text-courier-light leading-tight mb-8">
+        {<h1 className="font-asap font-bold text-courier-light leading-tight mb-8">
           <span className="block text-4xl md:text-6xl lg:text-hero">
-            Coopérative de coursier·ère·s
+            Rocket Courrier
           </span>
-          <span className="block text-4xl md:text-6xl lg:text-hero">
-            locale & indépendante
-          </span>
-          {/* <span className="block text-4xl md:text-6xl lg:text-hero">
-            à Genève
-          </span> */}
-        </h1>
+        </h1> }
 
-        <p className="text-courier-light text-lg md:text-xl font-asap max-w-2xl mx-auto">
-          La cyclomessagerie faite par et pour des coursier·ère·s
+        <p className="text-courier-light text-lg md:text-xl font-asap max-w-2xl mx-auto mb-8">
+          Avec Rocket, vos livraisons sont rapides, fiables et respectueuses de vos valeurs. Contactez-nous dès aujourd’hui!
         </p>
+
+        {/* CTA Section incorporated */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button
+            size="lg"
+            className="bg-courier-light hover:bg-courier-light/90 text-courier-dark font-asap px-8"
+            onClick={() => window.location.href = '/Rocket-Builder/contact'}
+          >
+            Passez commande
+          </Button>
+          <Button
+            variant="outline"
+            size="lg"
+            ClassName="bg-courier-light hover:bg-courier-light/90 text-courier-dark font-asap px-8"
+            onClick={() => window.location.href = 'tel:+41223001414'}
+          >
+            022 300 14 14
+          </Button>
+        </div>
       </div>
 
       {/* Floating elements for visual interest - made more subtle */}

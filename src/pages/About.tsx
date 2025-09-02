@@ -1,43 +1,44 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const About = () => {
   const teamMembers = [
     {
-      name: "Alex Rodriguez",
-      role: "Co-fondateur & Opérations",
+      name: "Rico",
+      role: "Fondateurs & Urluberlu",
       description:
-        "Passionné par la logistique urbaine durable et le développement de solutions écologiques.",
-      image: "team-1",
+        "tbd",
+      image: "rapide",
     },
-    {
-      name: "Jordan Kim",
-      role: "Co-fondateur & Technologie",
+  {
+      name: "Imman",
+      role: "Fondateurs & Urluberlu",
       description:
-        "Expert en technologie logistique et optimisation des itinéraires pour une efficacité maximale.",
-      image: "team-2",
+        "tbd",
+      image: "rapide",
     },
-    {
-      name: "Sam Johnson",
-      role: "Coursier Principal",
+ {
+      name: "Gus",
+      role: "Fondateurs & Urluberlu",
       description:
-        "Plus de 5 ans d'expérience en cyclisme urbain et livraison écologique.",
-      image: "team-3",
+        "tbd",
+      image: "rapide",
     },
-    {
-      name: "Casey Park",
-      role: "Relations Clients",
+     {
+      name: "Theo",
+      role: "Fondateurs & Urluberlu",
       description:
-        "Dévouée au service client exceptionnel et au support personnalisé.",
-      image: "team-4",
+        "tbd",
+      image: "rapide",
     },
   ];
 
   const stats = [
-    { number: "10,000+", label: "Livraisons Effectuées" },
-    { number: "500+", label: "Clients Satisfaits" },
-    { number: "50+", label: "Entreprises Partenaires" },
+    { number: "80+", label: "Années d'Expérience Cumulée" },
+    { number: "8", label: "Coursiers Fondateurs" },
+    { number: "300L", label: "Capacité Max. Vélos-Cargos" },
     { number: "0", label: "Émissions Carbone" },
   ];
 
@@ -68,29 +69,31 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-courier-dark font-asap text-lg">
                 <p>
-                  Fondé en 2024, Rocket Courrier a débuté comme un petit groupe de
-                  cyclistes passionnés par la création d'un système de livraison plus
-                  durable et équitable dans notre ville.
+                  Lancée en 2023 par une équipe de huit coursiers chevronnés, Rocket Courrier 
+                  allie passion du vélo et expertise logistique. Notre organisation horizontale, 
+                  avec des décisions prises collectivement, garantit une équipe motivée et un 
+                  service irréprochable.
                 </p>
                 <p>
-                  Notre vision était simple : proposer un service de livraison qui
-                  profite à la fois aux entreprises et aux communautés qu'elles
-                  servent, tout en préservant l'environnement.
+                  Avec plus de 80 ans d'expérience cumulée, nous connaissons Genève comme notre poche. 
+                  Nous bâtissons des relations de confiance avec nos clients grâce à des livraisons 
+                  rapides et un service soigné, tout en restant fidèles à nos valeurs de durabilité et de respect.
                 </p>
                 <p>
-                  Aujourd'hui, nous sommes fiers d'être la principale coopérative
-                  de livraison à vélo de Genève, servant des centaines d'entreprises
-                  locales tout en maintenant notre engagement envers la durabilité
-                  et la propriété collective.
+                  La sécurité est non négociable. Nos coursiers, tous passionnés de vélo, portent 
+                  obligatoirement un casque et bénéficient d'une couverture accident semi-privée en plus 
+                  de la SUVA. Leur engagement ? Offrir un service d'excellence tout en respectant la planète.
                 </p>
               </div>
             </div>
 
             <div className="lg:w-1/2">
-              <div className="w-full h-96 bg-gray-300 rounded-lg flex items-center justify-center">
-                <span className="text-gray-600 font-asap text-xl">
-                  Notre Histoire en Images
-                </span>
+              <div className="w-full h-96 overflow-hidden rounded-lg">
+                <img
+                  src="/Rocket-Builder/img/messenger_portait_4.jpeg"
+                  alt="Notre Histoire en Images"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -126,8 +129,7 @@ const About = () => {
               Notre Mission & Nos Valeurs
             </h2>
             <p className="font-asap text-courier-dark text-xl">
-              Nous nous engageons à créer un changement positif dans la logistique urbaine
-              grâce à des pratiques durables et une gestion coopérative.
+              Rocket Courrier a été fondée en 2023 par huit coursiers chevronnés à Genève. Notre équipe cumule plus de 80 ans d'expérience pour vous offrir un service rapide, fiable et ancré dans le tissu local.
             </p>
           </div>
 
@@ -135,14 +137,14 @@ const About = () => {
             <Card className="border-2 border-courier-dark">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-courier-lime rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-courier-dark font-bold text-xl">D</span>
+                  <span className="text-courier-dark font-bold text-xl">L</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
-                  Durable
+                  Local et Engagé
                 </h3>
                 <p className="font-asap text-courier-dark">
-                  Livraison zéro émission utilisant uniquement des vélos pour un
-                  environnement urbain plus propre.
+                  Nous soutenons l'économie genevoise avec des partenaires locaux comme la Banque Alternative Suisse, 
+                  deeps, Dr Paper & Mister Tee, et l'imprimerie Bahnhofstrasse.
                 </p>
               </CardContent>
             </Card>
@@ -153,11 +155,11 @@ const About = () => {
                   <span className="text-courier-dark font-bold text-xl">É</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
-                  Équitable
+                  Équipement Premium
                 </h3>
                 <p className="font-asap text-courier-dark">
-                  Modèle coopératif garantissant des salaires justes et une
-                  participation aux décisions pour tous les membres.
+                  Nos sacs Bagaboo étanches protègent vos envois, même sous la pluie. 
+                  Contenance jusqu'à 300 litres pour les vélos-cargos.
                 </p>
               </CardContent>
             </Card>
@@ -165,17 +167,52 @@ const About = () => {
             <Card className="border-2 border-courier-dark">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-courier-lime rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-courier-dark font-bold text-xl">F</span>
+                  <span className="text-courier-dark font-bold text-xl">S</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
-                  Fiable
+                  Service Client d'Exception
                 </h3>
                 <p className="font-asap text-courier-dark">
-                  Service professionnel constant avec suivi en temps réel et
-                  communication transparente.
+                  Rapidité, fiabilité et transparence sont nos priorités pour vous offrir
+                  un service irréprochable.
                 </p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Sustainable Future Section */}
+      <section className="py-20 bg-courier-light">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
+            <div className="lg:w-1/2">
+              <h2 className="font-asap font-extrabold text-section text-courier-dark mb-6">
+                Un Avenir Plus Durable
+              </h2>
+              <div className="space-y-6 text-courier-dark font-asap text-lg">
+                <p>
+                  Le vélo, c'est l'avenir des villes. Nos livraisons à vélo et vélo-cargo réduisent 
+                  le bruit et la pollution à Genève. Nos vélos et vélos-cargos, propulsés à la seule 
+                  force des jambes, garantissent des livraisons à faible impact environnemental.
+                </p>
+                <p>
+                  Besoin d'envoyer un colis hors canton ? Nous collaborons avec un partenaire 
+                  logistique fiable pour des livraisons partout en Suisse, avec des dépôts 
+                  sécurisés dans des wagons CFF dédiés.
+                </p>
+              </div>
+            </div>
+
+            <div className="lg:w-1/2">
+              <div className="w-full h-96 overflow-hidden rounded-lg">
+                <img
+                  src="/Rocket-Builder/img/sustainable.jpeg"
+                  alt="Livraison Écologique"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -193,10 +230,12 @@ const About = () => {
                 className="bg-courier-light border-2 border-courier-dark"
               >
                 <CardContent className="p-6 text-center">
-                  <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-gray-600 text-sm">
-                      {member.image}
-                    </span>
+                  <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden">
+                    <img
+                      src={`/Rocket-Builder/img/${member.image}.jpeg`}
+                      alt={`${member.name}`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="font-asap font-bold text-lg text-courier-dark mb-2">
                     {member.name}
@@ -213,6 +252,97 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      {/* Services Overview Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="font-asap font-extrabold text-section text-courier-dark mb-6">
+              Nos Services
+            </h2>
+            <p className="font-asap text-courier-dark text-xl">
+              Rocket Courrier livre à vélo et vélo-cargo dans tout le canton de Genève, jusqu'à Nyon. 
+              Vos colis, nos priorités : rapides, fiables, adaptés à vos besoins.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <Card className="border-2 border-courier-dark">
+              <CardContent className="p-8">
+                <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
+                  Délais de livraison
+                </h3>
+                <ul className="space-y-3 mb-4">
+                  <li className="flex items-start font-asap text-courier-dark">
+                    <div className="w-2 h-2 bg-courier-lime rounded-full mr-3 mt-2"></div>
+                    <span><strong>Normal :</strong> Livré en 1 heure* au centre-ville.</span>
+                  </li>
+                  <li className="flex items-start font-asap text-courier-dark">
+                    <div className="w-2 h-2 bg-courier-lime rounded-full mr-3 mt-2"></div>
+                    <span><strong>Rocket :</strong> Ultra-rapide, livré en 30 minutes* en moyenne.</span>
+                  </li>
+                </ul>
+                <p className="font-asap text-courier-dark text-sm italic">
+                  *Valable à Genève, Carouge, Acacias (codes postaux 1201 à 1209).
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-courier-dark">
+              <CardContent className="p-8">
+                <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
+                  Suivi en temps réel
+                </h3>
+                <p className="font-asap text-courier-dark mb-4">
+                  Chaque livraison inclut une preuve de livraison gratuite par e-mail (PDF) avec :
+                </p>
+                <ul className="space-y-2 mb-4">
+                  <li className="flex items-start font-asap text-courier-dark">
+                    <div className="w-2 h-2 bg-courier-lime rounded-full mr-3 mt-2"></div>
+                    <span>Type de prestation ;</span>
+                  </li>
+                  <li className="flex items-start font-asap text-courier-dark">
+                    <div className="w-2 h-2 bg-courier-lime rounded-full mr-3 mt-2"></div>
+                    <span>Heure d'enlèvement ;</span>
+                  </li>
+                  <li className="flex items-start font-asap text-courier-dark">
+                    <div className="w-2 h-2 bg-courier-lime rounded-full mr-3 mt-2"></div>
+                    <span>Heure de livraison ;</span>
+                  </li>
+                  <li className="flex items-start font-asap text-courier-dark">
+                    <div className="w-2 h-2 bg-courier-lime rounded-full mr-3 mt-2"></div>
+                    <span>Nom et signature du destinataire.</span>
+                  </li>
+                </ul>
+                <p className="font-asap text-courier-dark text-sm italic">
+                  Votre historique de livraisons est archivé pendant un an, accessible sur demande.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="max-w-6xl mx-auto mt-8">
+            <Card className="border-2 border-courier-dark">
+              <CardContent className="p-8">
+                <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
+                  Facturation simple
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start font-asap text-courier-dark">
+                    <div className="w-2 h-2 bg-courier-lime rounded-full mr-3 mt-2"></div>
+                    <span><strong>Facture mensuelle :</strong> Récapitulatif clair, règlement sous 30 jours.</span>
+                  </li>
+                  <li className="flex items-start font-asap text-courier-dark">
+                    <div className="w-2 h-2 bg-courier-lime rounded-full mr-3 mt-2"></div>
+                    <span><strong>Paiement en espèces :</strong> Directement avec le coursier.</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
     </div>

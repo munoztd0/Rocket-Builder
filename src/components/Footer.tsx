@@ -48,14 +48,30 @@ const Footer = () => {
                 Liens Rapides
               </h4>
               <ul className="space-y-2">
-                {/* <li>
+                <li>
                   <Link
-                  to="/contact"
-                  className="font-asap text-courier-light hover:text-courier-lime transition-colors"
+                    to="/services"
+                    className="font-asap text-courier-light hover:text-courier-lime transition-colors"
                   >
-                  Réserver une course
+                    Services
                   </Link>
-                </li> */}
+                </li>
+                <li>
+                  <Link
+                    to="/about"
+                    className="font-asap text-courier-light hover:text-courier-lime transition-colors"
+                  >
+                    À Propos
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/contact"
+                    className="font-asap text-courier-light hover:text-courier-lime transition-colors"
+                  >
+                    Passez commande
+                  </Link>
+                </li>
                 <li>
                   <Link
                     to="/conditions-generales"
@@ -64,14 +80,14 @@ const Footer = () => {
                     Conditions Générales
                   </Link>
                 </li>
-                {/* <li>
-                  <a
-                    href="#"
+                <li>
+                  <Link
+                    to="/politique-de-confidentialite"
                     className="font-asap text-courier-light hover:text-courier-lime transition-colors"
                   >
-                    FAQ
-                  </a>
-                </li> */}
+                    Politique de Confidentialité
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -123,12 +139,12 @@ const Footer = () => {
                   >
                     Conditions générales
                   </Link>
-                  {/* <Link
+                  <Link
                     to="/politique-de-confidentialite"
                     className="font-asap text-courier-light hover:text-courier-lime transition-colors text-sm"
                   >
                     Politique de confidentialité
-                  </Link> */}
+                  </Link>
                 </div>
               </div>
 

@@ -4,6 +4,7 @@ import ServicesSection from "@/components/ServicesSection";
 import AboutSection from "@/components/AboutSection";
 // import TestimonialsSection from "@/components/TestimonialsSection";
 import ValuesSection from "@/components/ValuesSection";
+// import CTASection from "@/components/CTASection"; // Commented out as CTA is now in Hero
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <AboutSection />
       {/* <TestimonialsSection /> */}
       <ValuesSection />
+      {/* <CTASection /> */} {/* Commented out as CTA is now in Hero */}
       <Footer />
     </div>
   );

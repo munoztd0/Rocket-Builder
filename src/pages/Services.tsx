@@ -6,43 +6,56 @@ import { Button } from "@/components/ui/button";
 const Services = () => {
   const services = [
     {
-      title: "Livraison Express",
+      title: "Livraison Normal",
       subtitle: "Rapide & Fiable",
       description:
-        "Service de livraison urgent pour vos colis et documents importants. Nos coursiers expérimentés garantissent une livraison rapide et sécurisée dans toute la ville.",
+        "Service de livraison standard pour vos colis et documents. Nos coursiers expérimentés garantissent une livraison rapide et sécurisée dans tout le canton de Genève, jusqu'à Nyon.",
       features: [
-        "Livraison en 1-3 heures",
+        "Livraison en 1 heure au centre-ville",
         "Suivi en temps réel",
-        "Confirmation de livraison",
-        "Service d'urgence",
+        "Preuve de livraison par e-mail (PDF)",
+        "Historique archivé pendant un an",
       ],
-      image: "express-courier",
+      image: "rapide",
     },
     {
-      title: "Livraison Alimentaire",
-      subtitle: "Frais & Ponctuel",
+      title: "Livraison Rocket",
+      subtitle: "Ultra-rapide & Efficace",
       description:
-        "Transport spécialisé pour restaurants, traiteurs et commerces alimentaires. Équipement adapté pour maintenir la qualité et la température de vos produits.",
+        "Service de livraison express pour vos envois urgents. Nos vélos et vélos-cargos, propulsés à la seule force des jambes, garantissent des livraisons rapides à faible impact environnemental.",
       features: [
-        "Transport réfrigéré",
-        "Manipulation spécialisée",
-        "Support événementiel",
-        "Gestion des commandes groupées",
+        "Livraison en 30 minutes en moyenne",
+        "Valable à Genève, Carouge, Acacias (1201-1209)",
+        "Confirmation immédiate",
+        "Service prioritaire",
       ],
-      image: "food-delivery",
+      image: "rocket",
+    },
+    {
+      title: "Livraison Cargo-Bike",
+      subtitle: "Volumineux & Écologique",
+      description:
+        "Service de livraison pour vos colis volumineux. Nos vélos-cargos, avec une capacité allant jusqu'à 300 litres, permettent de transporter des charges importantes tout en préservant l'environnement.",
+      features: [
+        "Capacité jusqu'à 300 litres",
+        "Sacs Bagaboo étanches",
+        "Livraison dans tout le canton de Genève, jusqu'à Nyon",
+        "Zéro émission carbone",
+      ],
+      image: "cargo",
     },
     {
       title: "Services aux Entreprises",
       subtitle: "Solutions sur Mesure",
       description:
-        "Solutions logistiques personnalisées pour les entreprises. De la livraison régulière de documents aux transports spéciaux, nous nous adaptons à vos besoins.",
+        "Solutions logistiques personnalisées pour les entreprises. Avec plus de 80 ans d'expérience cumulée, nous connaissons Genève comme notre poche et nous adaptons à vos besoins spécifiques.",
       features: [
-        "Contrats personnalisés",
-        "Facturation mensuelle",
-        "Service dédié",
-        "Reporting détaillé",
+        "Facturation mensuelle claire",
+        "Règlement sous 30 jours",
+        "Paiement en espèces possible",
+        "Livraisons hors canton via partenaire logistique",
       ],
-      image: "business-service",
+      image: "sustainable",
     }
   ];
 
@@ -57,7 +70,8 @@ const Services = () => {
             <span className="block text-4xl md:text-6xl">Nos Services</span>
           </h1>
           <p className="font-asap text-courier-dark text-xl max-w-3xl mx-auto">
-            Des solutions de livraison écologiques et efficaces, adaptées à vos besoins
+            Rocket Courrier livre à vélo et vélo-cargo dans tout le canton de Genève, jusqu'à Nyon. 
+            Vos colis, nos priorités : rapides, fiables, adaptés à vos besoins.
           </p>
         </div>
       </section>
@@ -75,10 +89,12 @@ const Services = () => {
               >
                 {/* Service Image */}
                 <div className="lg:w-1/2">
-                  <div className="w-full h-96 bg-gray-300 rounded-lg flex items-center justify-center">
-                    <span className="text-gray-600 font-asap text-xl">
-                      {service.image}
-                    </span>
+                  <div className="w-full h-96 overflow-hidden rounded-lg">
+                    <img
+                      src={`/Rocket-Builder/img/${service.image}.jpeg`}
+                      alt={`Service ${service.title}`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
 
@@ -120,32 +136,6 @@ const Services = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-courier-dark py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="font-asap font-extrabold text-section text-courier-light mb-6">
-            Prêt à commencer ?
-          </h2>
-          <p className="font-asap text-courier-light text-xl mb-8 max-w-2xl mx-auto">
-            Contactez-nous aujourd'hui pour discuter de vos besoins et obtenir un devis personnalisé.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-courier-light hover:bg-courier-light/90 text-courier-dark font-asap px-8"
-            >
-              Demander un devis
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-courier-light text-courier-light hover:bg-courier-light hover:text-courier-dark font-asap px-8"
-            >
-              Nous contacter
-            </Button>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
