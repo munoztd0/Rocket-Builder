@@ -22,12 +22,12 @@ const Contact = () => {
     },
     {
       title: "Adresse",
-      details: "Rue du Vélodrome 6\n1205 Genève\nSwitzerland",
+      details: "13 bvd du pont d'arve\n1205 Genève\nSwitzerland",
       icon: "📍",
     },
     {
       title: "Horaires",
-      details: "Lun-Ven: 9h – 18h\nSam-Dim: 12h – 21h",
+      details: "Lun-Ven: 8h – 18h\n",
       icon: "🕒",
     },
   ];

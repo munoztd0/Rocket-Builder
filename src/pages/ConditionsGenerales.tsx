@@ -6,7 +6,7 @@ const ConditionsGenerales = () => {
   return (
     <div className="min-h-screen font-asap">
       <Header />
-      
+
       <main className="container mx-auto px-4 py-20 mt-16">
         <h1 className="text-4xl font-bold text-courier-dark mb-12">Conditions Générales</h1>
 
@@ -14,7 +14,7 @@ const ConditionsGenerales = () => {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-courier-dark mb-4">1. Rocket courrier</h2>
           <p className="mb-4">
-            ci-après dénommés « le transporteur », proposent un service de livraison par coursier à vélo en Suisse. 
+            Ci-après dénommés « le transporteur », proposent un service de livraison par coursier à vélo en Suisse. 
             Les présentes conditions générales (CG) régissent la relation entre le transporteur et l'expéditeur (client ou mandant) 
             pour toute commande de transport national. En passant commande, l'expéditeur accepte ces CG. 
             Le contrat est conclu dès l'acceptation de la commande par le transporteur et reste valable jusqu'à la livraison de l'envoi.
@@ -71,7 +71,7 @@ const ConditionsGenerales = () => {
           <p className="mb-4">
             L'expéditeur peut souscrire une assurance pour les dommages ou pertes, à condition d'en faire la demande écrite avant la prise en charge.
             La valeur assurable maximale est de CHF 20'000.- par envoi*. 
-            Les marchandise peuvent uniquement être assurées du lundi au vendredi entre 08:00 et 18:00 heures.
+            Les marchandise peuvent uniquement être assurées du lundi au vendredi entre 08:00 et 18:00 heure.
           </p>
           <ul className="list-disc pl-6 mb-4 space-y-2">
             <li>Ne peuvent être assurés les espèces, les titres et les chèques au porteur. Il en va de même pour les bons d'achat.</li>

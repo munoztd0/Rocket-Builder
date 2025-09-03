@@ -7,39 +7,68 @@ const About = () => {
   const teamMembers = [
     {
       name: "Rico",
-      role: "Fondateurs & Urluberlu",
+      role: "Fondateurs & Coursiers",
       description:
-        "tbd",
+        "-",
       image: "rapide",
     },
   {
       name: "Imman",
-      role: "Fondateurs & Urluberlu",
+      role: "Fondateurs & Coursiers",
       description:
-        "tbd",
+        "-",
       image: "rapide",
     },
  {
       name: "Gus",
-      role: "Fondateurs & Urluberlu",
+      role: "Fondateurs & Coursiers",
       description:
-        "tbd",
+        "-",
       image: "rapide",
     },
      {
       name: "Theo",
-      role: "Fondateurs & Urluberlu",
+      role: "Fondateurs & Coursiers",
       description:
-        "tbd",
+        "-",
       image: "rapide",
     },
+    {
+      name: "Kristian",
+      role: "Fondateurs & Coursiers",
+      description:
+        "-",
+      image: "rapide",
+    },
+        {
+      name: "Elliot",
+      role: "Fondateurs & Coursiers",
+      description:
+        "-",
+      image: "rapide",
+    },
+        {
+      name: "Albus",
+      role: "Fondateurs & Coursiers",
+      description:
+        "-",
+      image: "rapide",
+    },
+        {
+      name: "JC",
+      role: "Fondateurs & Coursiers",
+      description:
+        "-",
+      image: "rapide",
+    }
   ];
 
   const stats = [
     { number: "80+", label: "Années d'Expérience Cumulée" },
-    { number: "8", label: "Coursiers Fondateurs" },
+    { number: "8", label: "Coursiers" },
     { number: "300L", label: "Capacité Max. Vélos-Cargos" },
-    { number: "0", label: "Émissions Carbone" },
+    { number: "0", label: "Émission Carbone" },
+    { number: "20'000", label: "Km parcouru" },
   ];
 
   return (
@@ -137,14 +166,15 @@ const About = () => {
             <Card className="border-2 border-courier-dark">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-courier-lime rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-courier-dark font-bold text-xl">L</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
                   Local et Engagé
                 </h3>
                 <p className="font-asap text-courier-dark">
                   Nous soutenons l'économie genevoise avec des partenaires locaux comme la Banque Alternative Suisse, 
-                  deeps, Dr Paper & Mister Tee, et l'imprimerie Bahnhofstrasse.
+                  <a href="https://www.deeps.ch/" target="_blank" rel="noopener noreferrer" className="text-courier-dark underline"> deeps</a>,
+                  <a href="http://www.dpmt.ch/" target="_blank" rel="noopener noreferrer" className="text-courier-dark underline"> Dr Paper & Mister Tee</a>,
+                  et <a href="https://www.bahnhofstrasse.ink/" target="_blank" rel="noopener noreferrer" className="text-courier-dark underline"> l'imprimerie Bahnhofstrasse</a>.
                 </p>
               </CardContent>
             </Card>
@@ -152,7 +182,6 @@ const About = () => {
             <Card className="border-2 border-courier-dark">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-courier-lime rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-courier-dark font-bold text-xl">É</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
                   Équipement Premium
@@ -167,7 +196,6 @@ const About = () => {
             <Card className="border-2 border-courier-dark">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-courier-lime rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-courier-dark font-bold text-xl">S</span>
                 </div>
                 <h3 className="font-asap font-bold text-xl text-courier-dark mb-4">
                   Service Client d'Exception
